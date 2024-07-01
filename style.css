@@ -1,0 +1,97 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url('images/tamagotchi_background.jpg'); /*bron: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Ffree-videos%2Fcartoon-room-background&psig=AOvVaw3bXO-7JYhLLTwirxHcTbp3&ust=1719835978799000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCLDJhramg4cDFQAAAAAdAAAAABAE*/
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    color: 	#b8d8be;
+}
+
+h2{
+    text-align: center;
+    color:#b8d8be;
+}
+
+h3{
+    text-align: center;
+    color:black;
+}
+
+.tamagotchi{
+    display: flex;
+    justify-content: center;
+}
+
+.tamagotchi img{
+    padding-top:3em;
+    height: 20em;
+    width: 20em;
+}
+
+.buttons{
+    padding-top:3em;
+    display:flex;
+    justify-content: center;
+}
+
+.feed{
+    font-size:24px;
+    padding: 1em 2em;
+    color:white;
+    background-color:pink;
+    border: none;
+    border-radius: 0.5em;
+    margin: 1em;
+}
+
+.feed:focus{ /*Bron: https://developer.mozilla.org/en-US/docs/Web/CSS/:focus*/
+    color:white;
+    background: plum;
+}
+
+.medicine{
+    font-size:24px;
+    padding: 1em 2em;
+    color:white;
+    background-color:pink;
+    border: none;
+    border-radius: 0.5em;
+    margin: 1em;
+}
+
+.medicine:focus{
+    color:white;
+    background: plum;
+}
+
+.talking{
+    font-size:24px;
+    padding: 1em 2em;
+    color:white;
+    background-color:pink;
+    border: none;
+    border-radius: 0.5em;
+    margin: 1em; 
+}
+
+.talking:focus{
+    color:white;
+    background: plum;
+}
+
+.dancing{
+    font-size:24px;
+    padding: 1em 2em;
+    color:white;
+    background-color:pink;
+    border: none;
+    border-radius: 0.5em;
+    margin: 1em;
+}
+
+.dancing:focus{
+    color:white;
+    background: plum;
+}
